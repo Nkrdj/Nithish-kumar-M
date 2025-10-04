@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 
@@ -7,6 +8,7 @@ const navLinks = [
   { href: '#skills', label: 'Skills' },
   { href: '#projects', label: 'Projects' },
   { href: '#services', label: 'Services' },
+  { href: '#github-stats', label: 'GitHub' },
   { href: '#achievements', label: 'Achievements' },
   { href: '#contact', label: 'Contact' },
 ];

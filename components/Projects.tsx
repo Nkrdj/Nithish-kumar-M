@@ -9,7 +9,7 @@ const projectsData = [
     tags: ['n8n', 'HubSpot', 'Automation', 'API Integration', 'Digital Marketing'],
     imageUrl: 'https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?q=80&w=3540&auto=format&fit=crop',
     liveUrl: null,
-    repoUrl: 'https://github.com',
+    repoUrl: 'https://github.com/YOUR_USERNAME/YOUR_REPOSITORY',
   },
   {
     title: 'Smart Attendance System',
@@ -17,7 +17,7 @@ const projectsData = [
     tags: ['Facial Recognition', 'Python', 'AI/ML', 'System Design'],
     imageUrl: 'https://images.unsplash.com/photo-1617901422732-35312a024213?q=80&w=3540&auto=format&fit=crop',
     liveUrl: null,
-    repoUrl: 'https://github.com',
+    repoUrl: 'https://github.com/YOUR_USERNAME/YOUR_REPOSITORY',
   },
   {
     title: 'Customer Churn Prediction',
@@ -25,7 +25,7 @@ const projectsData = [
     tags: ['Python', 'Scikit-learn', 'Pandas', 'Machine Learning', 'Data Analysis'],
     imageUrl: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=3540&auto=format&fit=crop',
     liveUrl: null,
-    repoUrl: 'https://github.com',
+    repoUrl: 'https://github.com/YOUR_USERNAME/YOUR_REPOSITORY',
   },
   {
     title: 'Movie Recommendation System',
@@ -33,7 +33,7 @@ const projectsData = [
     tags: ['Python', 'NLP', 'Scikit-learn', 'Recommendation System'],
     imageUrl: 'https://images.unsplash.com/photo-1627843563095-2df97824c965?q=80&w=3474&auto=format&fit=crop',
     liveUrl: null,
-    repoUrl: 'https://github.com',
+    repoUrl: 'https://github.com/YOUR_USERNAME/YOUR_REPOSITORY',
   }
 ];
 

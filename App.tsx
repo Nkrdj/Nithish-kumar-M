@@ -11,6 +11,7 @@ import Achievements from './components/Achievements';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import BackToTopButton from './components/BackToTopButton';
+import GithubStats from './components/GithubStats';
 
 const App: React.FC = () => {
   return (
@@ -23,6 +24,7 @@ const App: React.FC = () => {
         <Skills />
         <Projects />
         <Services />
+        <GithubStats />
         <Achievements />
         <Contact />
       </main>
