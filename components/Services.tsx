@@ -1,27 +1,26 @@
-
 import React, { useEffect, useRef, useState } from 'react';
-import { Code2, Megaphone, BrainCircuit, SearchCheck } from 'lucide-react';
+import { Code2, Megaphone, Wrench, BarChart3 } from 'lucide-react';
 
 const servicesData = [
   {
-    name: 'Web Development',
-    description: 'Creating modern, responsive, and high-performance websites from scratch to meet your business needs.',
+    name: 'Full-Stack Development',
+    description: 'Building responsive and dynamic web applications with a focus on user experience, using modern technologies like React.',
     icon: <Code2 className="w-10 h-10 text-blue-400" />,
   },
   {
-    name: 'Digital Marketing',
-    description: 'End-to-end digital marketing solutions including social media management, PPC campaigns, and content strategy.',
+    name: 'Digital Marketing & Automation',
+    description: 'Creating content and automating marketing workflows with tools like HubSpot to improve lead engagement.',
     icon: <Megaphone className="w-10 h-10 text-blue-400" />,
   },
   {
-    name: 'AI-Powered Business Solutions',
-    description: 'Leveraging AI and data science to build intelligent solutions that automate processes and drive growth.',
-    icon: <BrainCircuit className="w-10 h-10 text-blue-400" />,
+    name: 'L1 Technical Support',
+    description: 'Providing technical support by troubleshooting hardware, software, and network issues to ensure timely resolution.',
+    icon: <Wrench className="w-10 h-10 text-blue-400" />,
   },
   {
-    name: 'SEO Optimization',
-    description: 'Improving your website’s visibility on search engines to attract more organic traffic and potential customers.',
-    icon: <SearchCheck className="w-10 h-10 text-blue-400" />,
+    name: 'Data Visualization',
+    description: 'Creating interactive dashboards and reports with Power BI to transform complex data into actionable business insights.',
+    icon: <BarChart3 className="w-10 h-10 text-blue-400" />,
   },
 ];
 

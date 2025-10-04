@@ -1,4 +1,3 @@
-
 import React, { useEffect, useRef, useState } from 'react';
 import { Linkedin, Github, Mail, MessageCircle } from 'lucide-react';
 
@@ -67,7 +66,7 @@ const Contact: React.FC = () => {
           </form>
         </div>
         <div className="mt-12 flex justify-center items-center space-x-6">
-          <a href="https://wa.me/910000000000" target="_blank" rel="noopener noreferrer" className="p-3 bg-slate-800 rounded-full hover:bg-blue-500 transition-colors duration-300">
+          <a href="https://wa.me/919345587473" target="_blank" rel="noopener noreferrer" className="p-3 bg-slate-800 rounded-full hover:bg-blue-500 transition-colors duration-300">
             <MessageCircle className="w-6 h-6" />
           </a>
           <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="p-3 bg-slate-800 rounded-full hover:bg-blue-500 transition-colors duration-300">
@@ -76,7 +75,7 @@ const Contact: React.FC = () => {
           <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="p-3 bg-slate-800 rounded-full hover:bg-blue-500 transition-colors duration-300">
             <Github className="w-6 h-6" />
           </a>
-          <a href="mailto:example@email.com" className="p-3 bg-slate-800 rounded-full hover:bg-blue-500 transition-colors duration-300">
+          <a href="mailto:nkdpm78@gmail.com" className="p-3 bg-slate-800 rounded-full hover:bg-blue-500 transition-colors duration-300">
             <Mail className="w-6 h-6" />
           </a>
         </div>

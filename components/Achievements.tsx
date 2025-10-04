@@ -1,27 +1,26 @@
-
 import React, { useEffect, useRef, useState } from 'react';
-import { Award, Star, Briefcase, Cloud, Sigma } from 'lucide-react';
+import { Star, Briefcase, BarChart3, Code } from 'lucide-react';
 
 const achievementsData = [
   {
-    title: 'NCC Captain Leadership',
-    description: 'Led a contingent of cadets, fostering discipline, teamwork, and leadership skills.',
+    title: 'NCC Captain',
+    description: 'Led and managed cadets, fostering discipline and teamwork. Organized training programs, drills, and leadership activities.',
     icon: <Star className="w-8 h-8 text-blue-400" />,
   },
   {
-    title: 'Multiple Tech Internships',
-    description: 'Successfully completed internships in web development, digital marketing, and content writing.',
+    title: 'Professional Internships',
+    description: 'Completed internships as a Technical Support Engineer, Digital Marketer, and Content Writer at Sansys Business Solutions and Icanio Technologies.',
     icon: <Briefcase className="w-8 h-8 text-blue-400" />,
   },
   {
     title: 'Power BI Certification',
-    description: 'Certified in data visualization and business intelligence using Microsoft Power BI.',
-    icon: <Sigma className="w-8 h-8 text-blue-400" />,
+    description: 'Skilled in creating interactive dashboards, data modeling with DAX, and transforming data into actionable insights.',
+    icon: <BarChart3 className="w-8 h-8 text-blue-400" />,
   },
   {
-    title: 'Cloud & DevOps Certifications',
-    description: 'Achieved certifications in cloud computing fundamentals and DevOps practices.',
-    icon: <Cloud className="w-8 h-8 text-blue-400" />,
+    title: 'Java & Full Stack Certifications',
+    description: 'Proficient in Java, OOP, data structures, and backend development. Gained proficiency in React.js, HTML, CSS, and JavaScript.',
+    icon: <Code className="w-8 h-8 text-blue-400" />,
   },
 ];
 

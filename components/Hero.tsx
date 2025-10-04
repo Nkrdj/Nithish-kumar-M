@@ -1,11 +1,9 @@
-
 import React, { useState, useEffect } from 'react';
 
 const taglines = [
+  "Technical Support Engineer",
   "Full-Stack Developer",
   "Digital Marketer",
-  "Data Science Enthusiast",
-  "Entrepreneur",
 ];
 
 const Hero: React.FC = () => {
@@ -40,6 +38,24 @@ const Hero: React.FC = () => {
         return () => clearTimeout(timeout2);
     }, [blink]);
 
+    const handleLinkClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+      e.preventDefault();
+      const targetId = e.currentTarget.getAttribute('href');
+      if (!targetId) return;
+  
+      const targetElement = document.querySelector(targetId);
+      if (targetElement) {
+        const headerOffset = 80; // Corresponds to h-20 in Tailwind CSS (5rem = 80px)
+        const elementPosition = targetElement.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+  
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: 'smooth',
+        });
+      }
+    };
+
 
   return (
     <section id="home" className="min-h-screen flex flex-col justify-center items-start text-left pt-20">
@@ -52,9 +68,11 @@ const Hero: React.FC = () => {
             I'm a <span className="text-white">{`${taglines[index].substring(0, subIndex)}`}</span>
             <span className={`transition-opacity duration-300 ${blink ? 'opacity-100' : 'opacity-0'}`}>|</span>
         </h2>
-        <a href="#contact" className="px-6 py-3 border-2 border-blue-400 text-blue-400 rounded-md font-semibold hover:bg-blue-400 hover:text-slate-900 transition-all duration-300 shadow-[0_0_10px_rgba(59,130,246,0.5)]">
-            Get In Touch
-        </a>
+        <div className="flex flex-wrap gap-4">
+            <a href="#contact" onClick={handleLinkClick} className="px-6 py-3 border-2 border-blue-400 text-blue-400 rounded-md font-semibold hover:bg-blue-400 hover:text-slate-900 transition-all duration-300 shadow-[0_0_10px_rgba(59,130,246,0.5)]">
+                Get In Touch
+            </a>
+        </div>
       </div>
     </section>
   );
